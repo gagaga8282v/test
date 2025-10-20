@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Detail - Premium Mobile Autopflege | Nürnberg Fürth Roth Schwabach Erlangen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-crown"></i>
+                <span>Royal Detail</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Start</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#preise" class="nav-link">Preise</a></li>
+                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gold-text">Premium</span> Mobile Autopflege
+            </h1>
+            <p class="hero-subtitle">Ihr Fahrzeug verdient Königliche Behandlung</p>
+            <p class="hero-description">Mobile Premium-Autopflege in Nürnberg, Fürth, Roth, Schwabach & Erlangen. Wir kommen zu Ihnen!</p>
+            <button class="cta-button" onclick="scrollToSection('kontakt')">
+                <span>Jetzt Termin vereinbaren</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="hero-image">
+            <div class="car-showcase">
+                <i class="fas fa-car-side"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Unsere <span class="gold-text">Premium</span> Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3>Außenreinigung Deluxe</h3>
+                    <p>Handwäsche, Felgenreinigung, Reifenpflege, Glasreinigung & Wax-Finish</p>
+                    <ul>
+                        <li>✓ Handwäsche mit PH-neutralen Shampoos</li>
+                        <li>✓ Intensive Felgen- & Bremsstaubreinigung</li>
+                        <li>✓ Hochwertige Reifenpflege</li>
+                        <li>✓ Professionelle Glasreinigung</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Innenraum Premium</h3>
+                    <p>Gründliche Innenreinigung, Lederpflege, Kunststoffpflege & Geruchsneutralisation</p>
+                    <ul>
+                        <li>✓ Trocken- & Nassreinigung aller Oberflächen</li>
+                        <li>✓ Premium Lederpflege & -Konservierung</li>
+                        <li>✓ Kunststoff-Tiefenpflege</li>
+                        <li>✓ Professionelle Geruchsneutralisation</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Komplett-Paket Royal</h3>
+                    <p>Unser Premium Komplettangebot: Außen + Innen + Hochglanz-Politur + Versiegelung</p>
+                    <ul>
+                        <li>✓ Alle Leistungen aus Außen & Innen</li>
+                        <li>✓ 3-Stufen Hochglanz-Politur</li>
+                        <li>✓ Hochwertige Carnauba-Wachs Versiegelung</li>
+                        <li>✓ Langzeit-Schutz für 6 Monate</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Exklusiv Treatment</h3>
+                    <p>Luxus-Behandlung mit Keramikversiegelung, Motorwäsche & Premium-Finish</p>
+                    <ul>
+                        <li>✓ Professionelle Keramikversiegelung</li>
+                        <li>✓ Sanfte Motorraumreinigung</li>
+                        <li>✓ Premium Hochglanz-Finish</li>
+                        <li>✓ 12 Monate Schutzgarantie</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preise Section -->
+    <section id="preise" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Transparenter <span class="gold-text">Premium</span> Preise</h2>
+            <div class="pricing-grid">
+                <div class="price-card" data-aos="fade-up">
+                    <div class="price-header">
+                        <h3>Basic Package</h3>
+                        <div class="price">ab 150€</div>
+                    </div>
+                    <ul class="price-features">
+                        <li>✓ Außenreinigung Deluxe</li>
+                        <li>✓ Innenraum-Grundreinigung</li>
+                        <li>✓ Fensterreinigung</li>
+                        <li>✓ Reifenpflege</li>
+                        <li>✓ Dauer: 2-3 Stunden</li>
+                    </ul>
+                    <button class="price-button" onclick="openBooking('Basic Package - 150€')">
+                        Buchen
+                    </button>
+                </div>
+                
+                <div class="price-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="featured-badge">Beliebtest</div>
+                    <div class="price-header">
+                        <h3>Premium Package</h3>
+                        <div class="price">ab 300€</div>
+                    </div>
+                    <ul class="price-features">
+                        <li>✓ Komplett-Außenreinigung</li>
+                        <li>✓ Intensive Innenreinigung</li>
+                        <li>✓ Lederpflege</li>
+                        <li>✓ Politur & Wax-Finish</li>
+                        <li>✓ Dauer: 4-5 Stunden</li>
+                    </ul>
+                    <button class="price-button" onclick="openBooking('Premium Package - 300€')">
+                        Buchen
+                    </button>
+                </div>
+                
+                <div class="price-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="price-header">
+                        <h3>Royal Package</h3>
+                        <div class="price">ab 500€</div>
+                    </div>
+                    <ul class="price-features">
+                        <li>✓ Exklusives Komplett-Programm</li>
+                        <li>✓ Keramikversiegelung</li>
+                        <li>✓ Motorraumreinigung</li>
+                        <li>✓ 12 Monate Schutz</li>
+                        <li>✓ Dauer: 6-8 Stunden</li>
+                    </ul>
+                    <button class="price-button" onclick="openBooking('Royal Package - 500€')">
+                        Buchen
+                    </button>
+                </div>
+            </div>
+            <p class="pricing-note">*Preise variieren je nach Fahrzeuggröße und Zustand. Kontaktieren Sie uns für ein individuelles Angebot.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact">
+        <div class="container">
+            <h2 class="section-title">Jetzt <span class="gold-text">Termin</span> vereinbaren</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Kontaktieren Sie uns</h3>
+                    <p>Für Terminvereinbarungen und Anfragen erreichen Sie uns per E-Mail:</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Royal.detail@gmx.de" class="contact-link">
+                            Royal.detail@gmx.de
+                        </a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mobil in Nürnberg, Fürth, Roth, Schwabach & Erlangen</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Montag - Samstag: 8:00 - 18:00 Uhr</span>
+                    </div>
+                    
+                    <div class="service-area">
+                        <h4>Unsere Service-Gebiete:</h4>
+                        <div class="area-tags">
+                            <span class="area-tag">Nürnberg</span>
+                            <span class="area-tag">Fürth</span>
+                            <span class="area-tag">Roth</span>
+                            <span class="area-tag">Schwabach</span>
+                            <span class="area-tag">Erlangen</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form" onsubmit="sendEmail(event)">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="car">Fahrzeugmodell</label>
+                            <input type="text" id="car" name="car" placeholder="z.B. BMW 3er">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Gewünschter Service</label>
+                            <select id="service" name="service">
+                                <option value="">Bitte wählen...</option>
+                                <option value="Basic Package">Basic Package (ab 150€)</option>
+                                <option value="Premium Package">Premium Package (ab 300€)</option>
+                                <option value="Royal Package">Royal Package (ab 500€)</option>
+                                <option value="Individuell">Individuelle Beratung</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Bitte geben Sie Ihre gewünschten Terminwünsche und weitere Details an..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">
+                            <span>Anfrage senden</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-crown"></i>
+                        <span>Royal Detail</span>
+                    </div>
+                    <p>Premium Mobile Autopflege in Ihrer Region</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Außenreinigung</a></li>
+                        <li><a href="#services">Innenreinigung</a></li>
+                        <li><a href="#services">Komplettpakete</a></li>
+                        <li><a href="#services">Luxus Treatment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Gebiete</h4>
+                    <ul>
+                        <li>Nürnberg</li>
+                        <li>Fürth</li>
+                        <li>Roth</li>
+                        <li>Schwabach</li>
+                        <li>Erlangen</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>
+                        <a href="mailto:Royal.detail@gmx.de">Royal.detail@gmx.de</a>
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Royal Detail. Alle Rechte vorbehalten. | Premium Mobile Autopflege</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Anfrage gesendet!</h3>
+            <p>Vielen Dank für Ihre Anfrage. Wir werden uns innerhalb von 24 Stunden bei Ihnen melden.</p>
+            <button onclick="closeModal()">OK</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
